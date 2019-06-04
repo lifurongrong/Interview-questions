@@ -1,4 +1,4 @@
-> 实现一个LazyMan，可以按照以下方式调用:
+> 1、实现一个LazyMan，可以按照以下方式调用:
          1) LazyMan(“Hank”)输出:
          Hi! This is Hank!
         2) LazyMan(“Hank”).sleep(10).eat(“dinner”)输出
