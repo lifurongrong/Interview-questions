@@ -1,20 +1,19 @@
-> 实现一个LazyMan，可以按照以下方式调用:
-         1) LazyMan(“Hank”)输出:
-         Hi! This is Hank!
-        2) LazyMan(“Hank”).sleep(10).eat(“dinner”)输出
-         Hi! This is Hank!
-         //等待10秒..
-         Wake up after 10
-         Eat dinner~
-        3) LazyMan(“Hank”).eat(“dinner”).eat(“supper”)输出
-         Hi This is Hank!
-         Eat dinner~
-         Eat supper~
-        4) LazyMan(“Hank”).eat(“dinner”).sleepFirst(5).eat(“supper”)输出
-         //等待5秒
-         Hi This is Hank!
-         Wake up after 5
-         Eat supper
+实现一个LazyMan，可以按照以下方式调用:    
+         1) LazyMan(“Hank”)输出:    
+         Hi! This is Hank!   
+        2) LazyMan(“Hank”).sleep(10).eat(“dinner”)输出   
+         Hi! This is Hank!   
+         //等待10秒..   
+         Wake up after 10   
+         Eat dinner~   
+        3) LazyMan(“Hank”).eat(“dinner”).eat(“supper”)输出  Hi This is Hank!   
+         Eat dinner~   
+         Eat supper~   
+        4) LazyMan(“Hank”).eat(“dinner”).sleepFirst(5).eat(“supper”)输出   
+         //等待5秒   
+         Hi This is Hank!   
+         Wake up after 5   
+         Eat supper   
 
 ```
 class Man {
